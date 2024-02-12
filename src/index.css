@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#root {
+  width: 100vw;
+  height: 100vh;
+  background-color: darkgray;
+}
+
+.circle {
+  background-image: none;
+  border-radius: 50%;
+  background: #000;
+}
+
+.empty {
+  background-color: rgba(41, 231, 231, 0.664);
+}
+
+.full{
+  background-image: none;
+  background: #000;
+}
+
+.side {
+  background-image: url("../src/assets/semiCircle.svg");
+}
